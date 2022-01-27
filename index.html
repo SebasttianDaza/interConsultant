@@ -8,7 +8,7 @@
   maximum-scale=5"
     />
 
-    <link rel="icon" href="devchallenges.png" />
+    <link rel="icon" href="/assets/devchallenges.png" />
 
     <link
       rel="shortcut icon"
@@ -20,76 +20,71 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500&display=swap"
+      rel="stylesheet">
+    
+
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <title>Devchallenges</title>
+    <link rel="stylesheet" href="style.css">
 
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
+    <!-- Navegacion -->
+    <nav id="navegation">
+      <div id="logo">
+        <h1>This Interior</h1>
       </div>
+      <div id="list">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Collection</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Main -->
+    <main id="principal">
+      <!-- Imagen -->
+      <section id="writer">
+        <h2>Modern Interior</h2>
+        <p>A full-Service residential & commercial interior design and staging company offering professional organizing &
+        eco-services.</p>
+        <button>Read More</button>
+      </section>
+      <!-- Carta -->
+      <section id="card">
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
+        <section class="image">
+          <div><img src="assets/photo1.png" alt="Image the interior"></div>
+          <div>
+            <h3>Aliza Webber</h3>
+            <p>Interior designer</p>
+          </div>
+        </section>
+
+        <section>
+          <h4>Designed in 2020 by Aliza Webber</h4>
+        </section>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <p>created by username - devChallenges.io</p>
+    </footer>
   </body>
 </html>
