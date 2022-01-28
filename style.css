@@ -83,6 +83,7 @@ body {
     grid-gap: 2rem;
     align-items: center;
     justify-items: center;
+    margin-top: 2rem;
 }
 
 #writer {
@@ -101,10 +102,105 @@ body {
 }
 
 #writer button {
-    
+    background: var(--color-background-primary);
+    border: none;
+    width: 10rem;
+    height: 2rem;
+    font: normal bold 14px/22px var(--font-terciary);
+    color: var(--color-text-primary);
+    transition: to right .5s ;
+}
+
+#writer button:hover {
+    cursor: pointer;
+    border: 1px solid var(--color-text-primary);
+}
+
+/* Elemento de derecha */
+
+#card {
+    display: grid;
+    object-fit: cover;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    height: auto;
+    position: relative;
+
 }
 
 .image img {
     width: 100%;
     height: auto;
+}
+
+/* Card Twitter */
+
+.cards {
+    display: grid;
+    background: var(--color-background-primary);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 60%;
+    height: 189px;
+    padding: 1rem;
+    position: relative;
+    z-index: 1;
+    left: 65px;
+    top: -90px;
+}
+
+@media (max-width: 768px) {
+    
+    #list {
+        display: none;
+    }
+}
+
+/* First */
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 1rem;
+    align-items: center;
+    height: 40%;
+}
+
+.imgRadio {
+    width: 100%;
+    height: 72px;
+    justify-content: center;
+}
+
+.imgRadio img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+.letra h3 {
+    font: normal 500 14px/17px var(--font-terciary);
+    margin-top: 1rem;
+}
+
+.letra p {
+    font: normal 500 12px/15px var(--font-terciary);
+    color: #828282;
+}
+
+.share {
+    height: 60%;
+}
+
+.share h4 {
+    font: normal bold 24px/31px var(--font-family);
+}
+
+footer {
+    width: 100%;
+    text-align: center;
 }
