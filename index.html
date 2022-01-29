@@ -40,6 +40,7 @@
 
     <title>Devchallenges</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
 
   </head>
   <body>
@@ -48,13 +49,24 @@
       <div id="logo">
         <h1>This Interior</h1>
       </div>
-      <div id="list">
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Collection</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
+      <div id="menuArea">
+        <input type="checkbox" id="menuToggle"></input>
+
+        <label for="menuToggle" class="menuOpen">
+          <div class="open"></div>
+        </label>
+
+        <div class="menu menuEffects">
+          <label for="menuToggle"></label>
+          <div  class="list menuContent" id="nav">
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Collection</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </nav>
     <!-- Main -->
