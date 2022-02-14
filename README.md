@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Web Site Inter Consultant}</h1>
+<h1 align="center">Web Site Inter Consultant</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -17,7 +17,7 @@
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb">
-      Challenge
+      Website Projects
     </a>
   </h3>
 </div>
@@ -29,27 +29,24 @@
 - [Table of Contents](#table-of-contents)
 - [Overview](#overview)
   - [Built With](#built-with)
-- [Features](#features)
-- [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
 <!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](https://firebasestorage.googleapis.com/v0/b/emprendeyourlifestyle.appspot.com/o/inter-consultant.png?alt=media&token=fd31575b-25a6-465c-abad-e65cae99a3b2)
+![screenshot](https://emprendeyourlifestyle.com/wp-content/uploads/2022/02/interConsult1.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?
-  You can see the demo [here](https://inter-consultant.vercel.app/), it's a simple web app with deploy in a server the Vercel.
+This project is a simple design  responsive  that I allow me to learn different techniques with CSS and manager user experience.
 
-- What was your experience?
-  My experience was very positive, I've learned a some things more about CSS Grid, also as create a main hamburger responsive.
-- What have you learned/improved?
-  I've learned as create main responsive as from tutorial in Codepen, help me enough.
-- Your wisdom? :)
-  I don't need the JS to create a main hamburger, only with CSS Grid and Flexbox is enough.
+It's development with:
+
+HTML
+CSS, CSS Flex and Grid
+
+Design with Figma
 
 ### Built With
 
@@ -58,18 +55,6 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 - [HTML](https://developer.mozilla.org/)
 - [CSS](https://developer.mozilla.org/)
 
-
-## Features
-
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
-
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
-
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
 
 ## Contact
 
